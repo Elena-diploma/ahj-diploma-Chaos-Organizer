@@ -67,7 +67,6 @@ const categories = {
 }
 
 const fileDir = path.join(__dirname, '/public');
-//const upload = multer();
 app.use(koaStatic(fileDir));
 
 wsServer.on('connection', (ws, req) => {
