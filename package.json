@@ -1,0 +1,36 @@
+{
+  "name": "ahj-diploma-chaos-organizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elena-diploma/ahj-diploma-Chaos-Organizer.git"
+  },
+  "author": "Elena Tursunova <elenatursunova@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elena-diploma/ahj-diploma-Chaos-Organizer/issues"
+  },
+  "homepage": "https://github.com/Elena-diploma/ahj-diploma-Chaos-Organizer#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.1.1",
+    "forever": "^4.0.3",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "uuid": "^8.3.2",
+    "ws": "^8.5.0"
+  },
+  "engines": {
+    "node": "11.x"
+  }
+}
