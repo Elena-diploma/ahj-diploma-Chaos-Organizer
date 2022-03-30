@@ -59,7 +59,7 @@ const categories = {
     ],
     links: [
         {id: '275', name: 'https://google.com'},
-        {id: '275', name: 'https://meduza.io/'},
+        {id: '275', name: 'https://yandex.ru'},
     ],
     files: [
         {id: '679', name: '41118943.a4.pdf'}
