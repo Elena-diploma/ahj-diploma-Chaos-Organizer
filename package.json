@@ -28,13 +28,11 @@
     "koa-static": "^5.0.0",
     "koa2-cors": "^2.0.6",
     "uuid": "^8.3.2",
-    "ws": "^8.5.0"
+    "ws": "^8.5.0",
+    "koa-mount": "^4.0.0",
+    "mime-types": "^2.1.35"
   },
   "engines": {
     "node": "11.x"
-  },
-  "devDependencies": {
-    "koa-mount": "^4.0.0",
-    "mime-types": "^2.1.35"
   }
 }
