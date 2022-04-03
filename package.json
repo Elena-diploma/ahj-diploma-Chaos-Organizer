@@ -21,7 +21,7 @@
   "dependencies": {
     "@koa/cors": "^3.1.0",
     "@koa/router": "^10.1.1",
-    "forever": "^4.0.3",
+    "forever": "^0.14.2",
     "koa": "^2.13.4",
     "koa-body": "^4.2.0",
     "koa-router": "^10.1.1",
@@ -32,5 +32,9 @@
   },
   "engines": {
     "node": "11.x"
+  },
+  "devDependencies": {
+    "koa-mount": "^4.0.0",
+    "mime-types": "^2.1.35"
   }
 }
